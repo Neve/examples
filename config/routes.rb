@@ -1,4 +1,7 @@
-Myapp::Application.routes.draw do
+#ActionController::Routing::Routes.draw do |map|
+Myapp::Application.routes.draw do 
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -54,5 +57,14 @@ Myapp::Application.routes.draw do
 
   # This is a legacy wild controller route that's not recommended for RESTful applications.
   # Note: This route will make all actions in every controller accessible via GET requests.
-  match ':controller(/:action(/:id))(.:format)'
+  #match 'appserver', :to => 'controller#index', :via => [:get, :post]
+  #match 'root', :to => 'controller#index', :via => [:get, :post]
+  #map.root :controller => 'index'
+  #map.connect ':controller/:action/:id'
+  #map.connect ':controller/:action/:id.:format' 
+  match ':controller/:action/:id', via: [:get, :post]
+# match ':controller(/:action(/:id))(.:format)', :via => [:get, :post]
+  match '/appserver', :to => 'appserver', :via => [:get, :post]
+
 end
+

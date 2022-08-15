@@ -1,0 +1,2367 @@
+
+
+Started GET "/dbread" for 192.168.1.101 at 2022-07-26 18:57:41 +0300
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+LoadError (Please install the postgresql adapter: `gem install activerecord-postgresql-adapter` (can't activate pg (~> 0.11), already activated pg-1.4.1. Make sure all dependencies are added to Gemfile.)):
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/rubygems_integration.rb:346:in `block (2 levels) in replace_gem'
+  activerecord (3.2.22) lib/active_record/connection_adapters/postgresql_adapter.rb:7:in `<top (required)>'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:50:in `resolve_hash_connection'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:41:in `resolve_string_connection'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:25:in `spec'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:130:in `establish_connection'
+  activerecord (3.2.22) lib/active_record/railtie.rb:88:in `block (2 levels) in <class:Railtie>'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:42:in `each'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+  activerecord (3.2.22) lib/active_record/base.rb:720:in `<top (required)>'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.22) lib/active_record/query_cache.rb:60:in `call'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:405:in `_run__90875520998600927__call__875773822679307138__callbacks'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.22) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.9ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/dbread" for 192.168.1.101 at 2022-07-26 18:57:47 +0300
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+LoadError (Please install the postgresql adapter: `gem install activerecord-postgresql-adapter` (can't activate pg (~> 0.11), already activated pg-1.4.1. Make sure all dependencies are added to Gemfile.)):
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/rubygems_integration.rb:346:in `block (2 levels) in replace_gem'
+  activerecord (3.2.22) lib/active_record/connection_adapters/postgresql_adapter.rb:7:in `<top (required)>'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:50:in `resolve_hash_connection'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:41:in `resolve_string_connection'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:25:in `spec'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:130:in `establish_connection'
+  activerecord (3.2.22) lib/active_record/railtie.rb:88:in `block (2 levels) in <class:Railtie>'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:42:in `each'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+  activerecord (3.2.22) lib/active_record/base.rb:720:in `<top (required)>'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.22) lib/active_record/query_cache.rb:60:in `call'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:405:in `_run__90875520998600927__call__875773822679307138__callbacks'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.22) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.9ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/dbread" for 192.168.1.101 at 2022-07-26 18:57:50 +0300
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+LoadError (Please install the postgresql adapter: `gem install activerecord-postgresql-adapter` (can't activate pg (~> 0.11), already activated pg-1.4.1. Make sure all dependencies are added to Gemfile.)):
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/rubygems_integration.rb:346:in `block (2 levels) in replace_gem'
+  activerecord (3.2.22) lib/active_record/connection_adapters/postgresql_adapter.rb:7:in `<top (required)>'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:50:in `resolve_hash_connection'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:41:in `resolve_string_connection'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:25:in `spec'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:130:in `establish_connection'
+  activerecord (3.2.22) lib/active_record/railtie.rb:88:in `block (2 levels) in <class:Railtie>'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:42:in `each'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+  activerecord (3.2.22) lib/active_record/base.rb:720:in `<top (required)>'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.22) lib/active_record/query_cache.rb:60:in `call'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:405:in `_run__90875520998600927__call__875773822679307138__callbacks'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.22) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.6ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/dbread" for 192.168.1.101 at 2022-07-26 18:57:56 +0300
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+LoadError (Please install the postgresql adapter: `gem install activerecord-postgresql-adapter` (can't activate pg (~> 0.11), already activated pg-1.4.1. Make sure all dependencies are added to Gemfile.)):
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/rubygems_integration.rb:346:in `block (2 levels) in replace_gem'
+  activerecord (3.2.22) lib/active_record/connection_adapters/postgresql_adapter.rb:7:in `<top (required)>'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:50:in `resolve_hash_connection'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:41:in `resolve_string_connection'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:25:in `spec'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:130:in `establish_connection'
+  activerecord (3.2.22) lib/active_record/railtie.rb:88:in `block (2 levels) in <class:Railtie>'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:42:in `each'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+  activerecord (3.2.22) lib/active_record/base.rb:720:in `<top (required)>'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.22) lib/active_record/query_cache.rb:60:in `call'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:405:in `_run__90875520998600927__call__875773822679307138__callbacks'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.22) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/dbread" for 192.168.1.101 at 2022-07-26 18:57:57 +0300
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+LoadError (Please install the postgresql adapter: `gem install activerecord-postgresql-adapter` (can't activate pg (~> 0.11), already activated pg-1.4.1. Make sure all dependencies are added to Gemfile.)):
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/rubygems_integration.rb:346:in `block (2 levels) in replace_gem'
+  activerecord (3.2.22) lib/active_record/connection_adapters/postgresql_adapter.rb:7:in `<top (required)>'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:50:in `resolve_hash_connection'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:41:in `resolve_string_connection'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:25:in `spec'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:130:in `establish_connection'
+  activerecord (3.2.22) lib/active_record/railtie.rb:88:in `block (2 levels) in <class:Railtie>'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:42:in `each'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+  activerecord (3.2.22) lib/active_record/base.rb:720:in `<top (required)>'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.22) lib/active_record/query_cache.rb:60:in `call'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:405:in `_run__90875520998600927__call__875773822679307138__callbacks'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.22) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.5ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/dbread" for 192.168.1.101 at 2022-07-26 18:58:04 +0300
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+LoadError (Please install the postgresql adapter: `gem install activerecord-postgresql-adapter` (can't activate pg (~> 0.11), already activated pg-1.4.1. Make sure all dependencies are added to Gemfile.)):
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/rubygems_integration.rb:346:in `block (2 levels) in replace_gem'
+  activerecord (3.2.22) lib/active_record/connection_adapters/postgresql_adapter.rb:7:in `<top (required)>'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:50:in `resolve_hash_connection'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:41:in `resolve_string_connection'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:25:in `spec'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:130:in `establish_connection'
+  activerecord (3.2.22) lib/active_record/railtie.rb:88:in `block (2 levels) in <class:Railtie>'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:42:in `each'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+  activerecord (3.2.22) lib/active_record/base.rb:720:in `<top (required)>'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.22) lib/active_record/query_cache.rb:60:in `call'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:405:in `_run__90875520998600927__call__875773822679307138__callbacks'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.22) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/dbread" for 192.168.1.101 at 2022-07-26 18:58:05 +0300
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+LoadError (Please install the postgresql adapter: `gem install activerecord-postgresql-adapter` (can't activate pg (~> 0.11), already activated pg-1.4.1. Make sure all dependencies are added to Gemfile.)):
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/rubygems_integration.rb:346:in `block (2 levels) in replace_gem'
+  activerecord (3.2.22) lib/active_record/connection_adapters/postgresql_adapter.rb:7:in `<top (required)>'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:50:in `resolve_hash_connection'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:41:in `resolve_string_connection'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:25:in `spec'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:130:in `establish_connection'
+  activerecord (3.2.22) lib/active_record/railtie.rb:88:in `block (2 levels) in <class:Railtie>'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:42:in `each'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+  activerecord (3.2.22) lib/active_record/base.rb:720:in `<top (required)>'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.22) lib/active_record/query_cache.rb:60:in `call'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:405:in `_run__90875520998600927__call__875773822679307138__callbacks'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.22) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.9ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/dbread" for 192.168.1.101 at 2022-07-26 18:58:31 +0300
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+LoadError (Please install the postgresql adapter: `gem install activerecord-postgresql-adapter` (can't activate pg (~> 0.11), already activated pg-1.4.1. Make sure all dependencies are added to Gemfile.)):
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/rubygems_integration.rb:346:in `block (2 levels) in replace_gem'
+  activerecord (3.2.22) lib/active_record/connection_adapters/postgresql_adapter.rb:7:in `<top (required)>'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:50:in `resolve_hash_connection'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:41:in `resolve_string_connection'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:25:in `spec'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:130:in `establish_connection'
+  activerecord (3.2.22) lib/active_record/railtie.rb:88:in `block (2 levels) in <class:Railtie>'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:42:in `each'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+  activerecord (3.2.22) lib/active_record/base.rb:720:in `<top (required)>'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.22) lib/active_record/query_cache.rb:60:in `call'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:405:in `_run__90875520998600927__call__875773822679307138__callbacks'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.22) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.2ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/dbread" for 192.168.1.101 at 2022-07-26 18:58:41 +0300
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+LoadError (Please install the postgresql adapter: `gem install activerecord-postgresql-adapter` (can't activate pg (~> 0.11), already activated pg-1.4.1. Make sure all dependencies are added to Gemfile.)):
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/rubygems_integration.rb:346:in `block (2 levels) in replace_gem'
+  activerecord (3.2.22) lib/active_record/connection_adapters/postgresql_adapter.rb:7:in `<top (required)>'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:50:in `resolve_hash_connection'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:41:in `resolve_string_connection'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:25:in `spec'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:130:in `establish_connection'
+  activerecord (3.2.22) lib/active_record/railtie.rb:88:in `block (2 levels) in <class:Railtie>'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:42:in `each'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+  activerecord (3.2.22) lib/active_record/base.rb:720:in `<top (required)>'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.22) lib/active_record/query_cache.rb:60:in `call'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:405:in `_run__90875520998600927__call__875773822679307138__callbacks'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.22) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.8ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/dbread" for 192.168.1.101 at 2022-07-27 01:00:36 +0300
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+LoadError (Please install the postgresql adapter: `gem install activerecord-postgresql-adapter` (can't activate pg (~> 0.11), already activated pg-1.4.1. Make sure all dependencies are added to Gemfile.)):
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/rubygems_integration.rb:346:in `block (2 levels) in replace_gem'
+  activerecord (3.2.22) lib/active_record/connection_adapters/postgresql_adapter.rb:7:in `<top (required)>'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:50:in `resolve_hash_connection'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:41:in `resolve_string_connection'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:25:in `spec'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:130:in `establish_connection'
+  activerecord (3.2.22) lib/active_record/railtie.rb:88:in `block (2 levels) in <class:Railtie>'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:42:in `each'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+  activerecord (3.2.22) lib/active_record/base.rb:720:in `<top (required)>'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.22) lib/active_record/query_cache.rb:60:in `call'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:405:in `_run__90875520998600927__call__875773822679307138__callbacks'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.22) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.5ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/dbread" for 192.168.1.101 at 2022-07-27 01:00:37 +0300
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+LoadError (Please install the postgresql adapter: `gem install activerecord-postgresql-adapter` (can't activate pg (~> 0.11), already activated pg-1.4.1. Make sure all dependencies are added to Gemfile.)):
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/rubygems_integration.rb:346:in `block (2 levels) in replace_gem'
+  activerecord (3.2.22) lib/active_record/connection_adapters/postgresql_adapter.rb:7:in `<top (required)>'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:50:in `resolve_hash_connection'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:41:in `resolve_string_connection'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:25:in `spec'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:130:in `establish_connection'
+  activerecord (3.2.22) lib/active_record/railtie.rb:88:in `block (2 levels) in <class:Railtie>'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:42:in `each'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+  activerecord (3.2.22) lib/active_record/base.rb:720:in `<top (required)>'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.22) lib/active_record/query_cache.rb:60:in `call'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:405:in `_run__90875520998600927__call__875773822679307138__callbacks'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.22) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.9ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/dbread" for 192.168.1.101 at 2022-07-27 01:00:38 +0300
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+LoadError (Please install the postgresql adapter: `gem install activerecord-postgresql-adapter` (can't activate pg (~> 0.11), already activated pg-1.4.1. Make sure all dependencies are added to Gemfile.)):
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/rubygems_integration.rb:346:in `block (2 levels) in replace_gem'
+  activerecord (3.2.22) lib/active_record/connection_adapters/postgresql_adapter.rb:7:in `<top (required)>'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:50:in `resolve_hash_connection'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:41:in `resolve_string_connection'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:25:in `spec'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:130:in `establish_connection'
+  activerecord (3.2.22) lib/active_record/railtie.rb:88:in `block (2 levels) in <class:Railtie>'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:42:in `each'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+  activerecord (3.2.22) lib/active_record/base.rb:720:in `<top (required)>'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.22) lib/active_record/query_cache.rb:60:in `call'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:405:in `_run__90875520998600927__call__875773822679307138__callbacks'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.22) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.6ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/dbread" for 192.168.1.101 at 2022-07-27 01:00:38 +0300
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+LoadError (Please install the postgresql adapter: `gem install activerecord-postgresql-adapter` (can't activate pg (~> 0.11), already activated pg-1.4.1. Make sure all dependencies are added to Gemfile.)):
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/rubygems_integration.rb:346:in `block (2 levels) in replace_gem'
+  activerecord (3.2.22) lib/active_record/connection_adapters/postgresql_adapter.rb:7:in `<top (required)>'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:50:in `resolve_hash_connection'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:41:in `resolve_string_connection'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:25:in `spec'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:130:in `establish_connection'
+  activerecord (3.2.22) lib/active_record/railtie.rb:88:in `block (2 levels) in <class:Railtie>'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:42:in `each'
+  activesupport (3.2.22) lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+  activerecord (3.2.22) lib/active_record/base.rb:720:in `<top (required)>'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.22) lib/active_record/query_cache.rb:60:in `call'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:405:in `_run__90875520998600927__call__875773822679307138__callbacks'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.22) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.8ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/dbread" for 192.168.1.101 at 2022-07-27 12:43:30 +0300
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+LoadError (Please install the postgresql adapter: `gem install activerecord-postgresql-adapter` (can't activate pg (~> 0.11), already activated pg-1.4.2. Make sure all dependencies are added to Gemfile.)):
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/rubygems_integration.rb:346:in `block (2 levels) in replace_gem'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/postgresql_adapter.rb:7:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:50:in `resolve_hash_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:41:in `resolve_string_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:25:in `spec'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:130:in `establish_connection'
+  activerecord (3.2.22.5) lib/active_record/railtie.rb:88:in `block (2 levels) in <class:Railtie>'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `each'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+  activerecord (3.2.22.5) lib/active_record/base.rb:720:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:60:in `call'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `_run__2518194124686650760__call__3490572853227806957__callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22.5) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22.5) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.8ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/dbread" for 192.168.1.101 at 2022-07-27 12:43:34 +0300
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+LoadError (Please install the postgresql adapter: `gem install activerecord-postgresql-adapter` (can't activate pg (~> 0.11), already activated pg-1.4.2. Make sure all dependencies are added to Gemfile.)):
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/rubygems_integration.rb:346:in `block (2 levels) in replace_gem'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/postgresql_adapter.rb:7:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:50:in `resolve_hash_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:41:in `resolve_string_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:25:in `spec'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:130:in `establish_connection'
+  activerecord (3.2.22.5) lib/active_record/railtie.rb:88:in `block (2 levels) in <class:Railtie>'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `each'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+  activerecord (3.2.22.5) lib/active_record/base.rb:720:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:60:in `call'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `_run__2518194124686650760__call__3490572853227806957__callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22.5) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22.5) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.7ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/dbread" for 192.168.1.101 at 2022-07-27 12:43:36 +0300
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+LoadError (Please install the postgresql adapter: `gem install activerecord-postgresql-adapter` (can't activate pg (~> 0.11), already activated pg-1.4.2. Make sure all dependencies are added to Gemfile.)):
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/rubygems_integration.rb:346:in `block (2 levels) in replace_gem'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/postgresql_adapter.rb:7:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:50:in `resolve_hash_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:41:in `resolve_string_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:25:in `spec'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:130:in `establish_connection'
+  activerecord (3.2.22.5) lib/active_record/railtie.rb:88:in `block (2 levels) in <class:Railtie>'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `each'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+  activerecord (3.2.22.5) lib/active_record/base.rb:720:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:60:in `call'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `_run__2518194124686650760__call__3490572853227806957__callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22.5) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22.5) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.8ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/dbread" for 192.168.1.101 at 2022-07-27 12:48:14 +0300
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+LoadError (Please install the postgresql adapter: `gem install activerecord-postgresql-adapter` (can't activate pg (~> 0.11), already activated pg-1.4.2. Make sure all dependencies are added to Gemfile.)):
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/rubygems_integration.rb:346:in `block (2 levels) in replace_gem'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/postgresql_adapter.rb:7:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:50:in `resolve_hash_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:41:in `resolve_string_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:25:in `spec'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:130:in `establish_connection'
+  activerecord (3.2.22.5) lib/active_record/railtie.rb:88:in `block (2 levels) in <class:Railtie>'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `each'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+  activerecord (3.2.22.5) lib/active_record/base.rb:720:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:60:in `call'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `_run__2518194124686650760__call__3490572853227806957__callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22.5) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22.5) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.3ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/dbread" for 192.168.1.101 at 2022-07-27 12:48:23 +0300
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+LoadError (Please install the postgresql adapter: `gem install activerecord-postgresql-adapter` (can't activate pg (~> 0.11), already activated pg-1.4.2. Make sure all dependencies are added to Gemfile.)):
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/rubygems_integration.rb:346:in `block (2 levels) in replace_gem'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/postgresql_adapter.rb:7:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:50:in `resolve_hash_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:41:in `resolve_string_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:25:in `spec'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:130:in `establish_connection'
+  activerecord (3.2.22.5) lib/active_record/railtie.rb:88:in `block (2 levels) in <class:Railtie>'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `each'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+  activerecord (3.2.22.5) lib/active_record/base.rb:720:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:60:in `call'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `_run__2518194124686650760__call__3490572853227806957__callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22.5) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22.5) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.1ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/dbread" for 192.168.1.101 at 2022-07-27 12:48:23 +0300
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+LoadError (Please install the postgresql adapter: `gem install activerecord-postgresql-adapter` (can't activate pg (~> 0.11), already activated pg-1.4.2. Make sure all dependencies are added to Gemfile.)):
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/rubygems_integration.rb:346:in `block (2 levels) in replace_gem'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/postgresql_adapter.rb:7:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:50:in `resolve_hash_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:41:in `resolve_string_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:25:in `spec'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:130:in `establish_connection'
+  activerecord (3.2.22.5) lib/active_record/railtie.rb:88:in `block (2 levels) in <class:Railtie>'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `each'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+  activerecord (3.2.22.5) lib/active_record/base.rb:720:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:60:in `call'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `_run__2518194124686650760__call__3490572853227806957__callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22.5) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22.5) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.4ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/dbread" for 192.168.1.101 at 2022-07-27 12:48:23 +0300
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+LoadError (Please install the postgresql adapter: `gem install activerecord-postgresql-adapter` (can't activate pg (~> 0.11), already activated pg-1.4.2. Make sure all dependencies are added to Gemfile.)):
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/rubygems_integration.rb:346:in `block (2 levels) in replace_gem'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/postgresql_adapter.rb:7:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:50:in `resolve_hash_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:41:in `resolve_string_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:25:in `spec'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:130:in `establish_connection'
+  activerecord (3.2.22.5) lib/active_record/railtie.rb:88:in `block (2 levels) in <class:Railtie>'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `each'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+  activerecord (3.2.22.5) lib/active_record/base.rb:720:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:60:in `call'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `_run__2518194124686650760__call__3490572853227806957__callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22.5) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22.5) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.3ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/dbread" for 192.168.1.101 at 2022-07-27 12:48:58 +0300
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+LoadError (Please install the postgresql adapter: `gem install activerecord-postgresql-adapter` (can't activate pg (~> 0.11), already activated pg-1.4.2. Make sure all dependencies are added to Gemfile.)):
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/rubygems_integration.rb:346:in `block (2 levels) in replace_gem'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/postgresql_adapter.rb:7:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:50:in `resolve_hash_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:41:in `resolve_string_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:25:in `spec'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:130:in `establish_connection'
+  activerecord (3.2.22.5) lib/active_record/railtie.rb:88:in `block (2 levels) in <class:Railtie>'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `each'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+  activerecord (3.2.22.5) lib/active_record/base.rb:720:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:60:in `call'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `_run__1509981099984227350__call__1310711616088262982__callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22.5) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22.5) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.7ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/dbread" for 192.168.1.101 at 2022-07-27 12:49:43 +0300
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+LoadError (Please install the postgresql adapter: `gem install activerecord-postgresql-adapter` (can't activate pg (~> 0.11), already activated pg-1.4.2. Make sure all dependencies are added to Gemfile.)):
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/rubygems_integration.rb:346:in `block (2 levels) in replace_gem'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/postgresql_adapter.rb:7:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:50:in `resolve_hash_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:41:in `resolve_string_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:25:in `spec'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:130:in `establish_connection'
+  activerecord (3.2.22.5) lib/active_record/railtie.rb:88:in `block (2 levels) in <class:Railtie>'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `each'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+  activerecord (3.2.22.5) lib/active_record/base.rb:720:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:60:in `call'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `_run__3444542650290758323__call__2289740855330108176__callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22.5) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22.5) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.1ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/dbread" for 192.168.1.101 at 2022-07-27 12:50:46 +0300
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+LoadError (Please install the postgresql adapter: `gem install activerecord-postgresql-adapter` (can't activate pg (~> 0.11), already activated pg-1.4.2. Make sure all dependencies are added to Gemfile.)):
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/rubygems_integration.rb:346:in `block (2 levels) in replace_gem'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/postgresql_adapter.rb:7:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:50:in `resolve_hash_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:41:in `resolve_string_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:25:in `spec'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:130:in `establish_connection'
+  activerecord (3.2.22.5) lib/active_record/railtie.rb:88:in `block (2 levels) in <class:Railtie>'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `each'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+  activerecord (3.2.22.5) lib/active_record/base.rb:720:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:60:in `call'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `_run__2562035514689040596__call__4106683137435503446__callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22.5) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22.5) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.2ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/dbread" for 192.168.1.101 at 2022-07-27 12:55:24 +0300
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+LoadError (Please install the postgresql adapter: `gem install activerecord-postgresql-adapter` (can't activate pg (~> 0.11), already activated pg-1.4.2. Make sure all dependencies are added to Gemfile.)):
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/rubygems_integration.rb:346:in `block (2 levels) in replace_gem'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/postgresql_adapter.rb:7:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:50:in `resolve_hash_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:41:in `resolve_string_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:25:in `spec'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:130:in `establish_connection'
+  activerecord (3.2.22.5) lib/active_record/railtie.rb:88:in `block (2 levels) in <class:Railtie>'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `each'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+  activerecord (3.2.22.5) lib/active_record/base.rb:720:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:60:in `call'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `_run__2710102447472121182__call__3940855826641167055__callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22.5) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22.5) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.3ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/dbread" for 192.168.1.101 at 2022-07-27 12:59:42 +0300
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+LoadError (Please install the postgresql adapter: `gem install activerecord-postgresql-adapter` (can't activate pg (~> 0.11), already activated pg-1.4.2. Make sure all dependencies are added to Gemfile.)):
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/rubygems_integration.rb:346:in `block (2 levels) in replace_gem'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/postgresql_adapter.rb:7:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:50:in `resolve_hash_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:41:in `resolve_string_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:25:in `spec'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:130:in `establish_connection'
+  activerecord (3.2.22.5) lib/active_record/railtie.rb:88:in `block (2 levels) in <class:Railtie>'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `each'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+  activerecord (3.2.22.5) lib/active_record/base.rb:720:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:60:in `call'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `_run__3695922164986603960__call__4405038060303701658__callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22.5) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22.5) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.1ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/dbread" for 192.168.1.101 at 2022-07-27 13:02:08 +0300
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+LoadError (Please install the postgresql adapter: `gem install activerecord-postgresql-adapter` (can't activate pg (~> 0.11), already activated pg-1.4.2. Make sure all dependencies are added to Gemfile.)):
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/rubygems_integration.rb:346:in `block (2 levels) in replace_gem'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/postgresql_adapter.rb:7:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:50:in `resolve_hash_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:41:in `resolve_string_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:25:in `spec'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:130:in `establish_connection'
+  activerecord (3.2.22.5) lib/active_record/railtie.rb:88:in `block (2 levels) in <class:Railtie>'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `each'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+  activerecord (3.2.22.5) lib/active_record/base.rb:720:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:60:in `call'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `_run__4175088830183384482__call__1032754305151212679__callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22.5) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22.5) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.7ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/dbread" for 192.168.1.101 at 2022-07-27 13:10:21 +0300
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+LoadError (Please install the ruby-pg adapter: `gem install activerecord-ruby-pg-adapter` (cannot load such file -- active_record/connection_adapters/ruby-pg_adapter)):
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:50:in `resolve_hash_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:41:in `resolve_string_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:25:in `spec'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:130:in `establish_connection'
+  activerecord (3.2.22.5) lib/active_record/railtie.rb:88:in `block (2 levels) in <class:Railtie>'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `each'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+  activerecord (3.2.22.5) lib/active_record/base.rb:720:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:60:in `call'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `_run__2848136145475181195__call__977671924528699449__callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22.5) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22.5) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.2ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/dbread" for 192.168.1.101 at 2022-07-27 13:17:09 +0300
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+LoadError (Please install the postgresql adapter: `gem install activerecord-postgresql-adapter` (can't activate pg (~> 0.11), already activated pg-1.4.2. Make sure all dependencies are added to Gemfile.)):
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/rubygems_integration.rb:346:in `block (2 levels) in replace_gem'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/postgresql_adapter.rb:7:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:50:in `resolve_hash_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:41:in `resolve_string_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:25:in `spec'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:130:in `establish_connection'
+  activerecord (3.2.22.5) lib/active_record/railtie.rb:88:in `block (2 levels) in <class:Railtie>'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `each'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+  activerecord (3.2.22.5) lib/active_record/base.rb:720:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:60:in `call'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `_run__1032109496029436584__call__2480893994299842468__callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22.5) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22.5) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.3ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/dbread" for 192.168.1.101 at 2022-07-27 13:19:01 +0300
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+LoadError (Please install the postgresql adapter: `gem install activerecord-postgresql-adapter` (can't activate pg (~> 0.11), already activated pg-1.4.2. Make sure all dependencies are added to Gemfile.)):
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/rubygems_integration.rb:346:in `block (2 levels) in replace_gem'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/postgresql_adapter.rb:7:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:50:in `resolve_hash_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:41:in `resolve_string_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:25:in `spec'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:130:in `establish_connection'
+  activerecord (3.2.22.5) lib/active_record/railtie.rb:88:in `block (2 levels) in <class:Railtie>'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `each'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+  activerecord (3.2.22.5) lib/active_record/base.rb:720:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:60:in `call'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `_run__1032109496029436584__call__2480893994299842468__callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22.5) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22.5) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.7ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/dbread" for 192.168.1.101 at 2022-07-27 13:19:01 +0300
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+LoadError (Please install the postgresql adapter: `gem install activerecord-postgresql-adapter` (can't activate pg (~> 0.11), already activated pg-1.4.2. Make sure all dependencies are added to Gemfile.)):
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/rubygems_integration.rb:346:in `block (2 levels) in replace_gem'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/postgresql_adapter.rb:7:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:50:in `resolve_hash_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:41:in `resolve_string_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:25:in `spec'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:130:in `establish_connection'
+  activerecord (3.2.22.5) lib/active_record/railtie.rb:88:in `block (2 levels) in <class:Railtie>'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `each'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+  activerecord (3.2.22.5) lib/active_record/base.rb:720:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:60:in `call'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `_run__1032109496029436584__call__2480893994299842468__callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22.5) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22.5) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.2ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/dbread" for 192.168.1.101 at 2022-07-27 13:19:01 +0300
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+LoadError (Please install the postgresql adapter: `gem install activerecord-postgresql-adapter` (can't activate pg (~> 0.11), already activated pg-1.4.2. Make sure all dependencies are added to Gemfile.)):
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/rubygems_integration.rb:346:in `block (2 levels) in replace_gem'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/postgresql_adapter.rb:7:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:50:in `resolve_hash_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:41:in `resolve_string_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:25:in `spec'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:130:in `establish_connection'
+  activerecord (3.2.22.5) lib/active_record/railtie.rb:88:in `block (2 levels) in <class:Railtie>'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `each'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+  activerecord (3.2.22.5) lib/active_record/base.rb:720:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:60:in `call'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `_run__1032109496029436584__call__2480893994299842468__callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22.5) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22.5) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.9ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/dbread" for 192.168.1.101 at 2022-07-27 13:19:01 +0300
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+LoadError (Please install the postgresql adapter: `gem install activerecord-postgresql-adapter` (can't activate pg (~> 0.11), already activated pg-1.4.2. Make sure all dependencies are added to Gemfile.)):
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/rubygems_integration.rb:346:in `block (2 levels) in replace_gem'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/postgresql_adapter.rb:7:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:50:in `resolve_hash_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:41:in `resolve_string_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:25:in `spec'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:130:in `establish_connection'
+  activerecord (3.2.22.5) lib/active_record/railtie.rb:88:in `block (2 levels) in <class:Railtie>'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `each'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+  activerecord (3.2.22.5) lib/active_record/base.rb:720:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:60:in `call'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `_run__1032109496029436584__call__2480893994299842468__callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22.5) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22.5) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/dbread" for 192.168.1.101 at 2022-07-27 13:19:01 +0300
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+LoadError (Please install the postgresql adapter: `gem install activerecord-postgresql-adapter` (can't activate pg (~> 0.11), already activated pg-1.4.2. Make sure all dependencies are added to Gemfile.)):
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/rubygems_integration.rb:346:in `block (2 levels) in replace_gem'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/postgresql_adapter.rb:7:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:50:in `resolve_hash_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:41:in `resolve_string_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:25:in `spec'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:130:in `establish_connection'
+  activerecord (3.2.22.5) lib/active_record/railtie.rb:88:in `block (2 levels) in <class:Railtie>'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `each'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+  activerecord (3.2.22.5) lib/active_record/base.rb:720:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:60:in `call'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `_run__1032109496029436584__call__2480893994299842468__callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22.5) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22.5) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.6ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/dbread" for 192.168.1.101 at 2022-07-27 13:28:45 +0300
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+LoadError (Please install the postgresql adapter: `gem install activerecord-postgresql-adapter` (can't activate pg (~> 0.11), already activated pg-1.4.2. Make sure all dependencies are added to Gemfile.)):
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/rubygems_integration.rb:346:in `block (2 levels) in replace_gem'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/postgresql_adapter.rb:7:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:50:in `resolve_hash_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:41:in `resolve_string_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:25:in `spec'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:130:in `establish_connection'
+  activerecord (3.2.22.5) lib/active_record/railtie.rb:88:in `block (2 levels) in <class:Railtie>'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `each'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+  activerecord (3.2.22.5) lib/active_record/base.rb:720:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:60:in `call'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `_run__4456769444406830158__call__4448892494929075513__callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22.5) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22.5) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.8ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/dbread" for 192.168.1.101 at 2022-07-27 13:31:50 +0300
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+LoadError (Please install the postgresql adapter: `gem install activerecord-postgresql-adapter` (can't activate pg (~> 0.11), already activated pg-1.4.2. Make sure all dependencies are added to Gemfile.)):
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/rubygems_integration.rb:346:in `block (2 levels) in replace_gem'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/postgresql_adapter.rb:7:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:50:in `resolve_hash_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:41:in `resolve_string_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:25:in `spec'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:130:in `establish_connection'
+  activerecord (3.2.22.5) lib/active_record/railtie.rb:88:in `block (2 levels) in <class:Railtie>'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `each'
+  activesupport (3.2.22.5) lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+  activerecord (3.2.22.5) lib/active_record/base.rb:720:in `<top (required)>'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `block in require'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.22.5) lib/active_support/dependencies.rb:251:in `require'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:60:in `call'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `_run__1480282193807643353__call__3161766652940201482__callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22.5) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22.5) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.3ms)
+Connecting to database specified by database.yml
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 7.0. (called from block in <top (required)> at /var/www/examples/config/routes.rb:65)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from block in <top (required)> at /var/www/examples/config/routes.rb:65)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 7.0. (called from block in <top (required)> at /var/www/examples/config/routes.rb:65)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from block in <top (required)> at /var/www/examples/config/routes.rb:65)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 7.0. (called from block in <top (required)> at /var/www/examples/config/routes.rb:65)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from block in <top (required)> at /var/www/examples/config/routes.rb:65)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 7.0. (called from block in <top (required)> at /var/www/examples/config/routes.rb:65)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from block in <top (required)> at /var/www/examples/config/routes.rb:65)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 7.0. (called from block in <top (required)> at /var/www/examples/config/routes.rb:65)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from block in <top (required)> at /var/www/examples/config/routes.rb:65)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 7.0. (called from block in <top (required)> at /var/www/examples/config/routes.rb:65)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from block in <top (required)> at /var/www/examples/config/routes.rb:65)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 7.0. (called from block in <top (required)> at /var/www/examples/config/routes.rb:65)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from block in <top (required)> at /var/www/examples/config/routes.rb:65)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 7.0. (called from block in <top (required)> at /var/www/examples/config/routes.rb:65)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from block in <top (required)> at /var/www/examples/config/routes.rb:65)
+Started GET "/appserver" for ::1 at 2022-07-27 15:08:27 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/appserver"):
+  
+Started GET "/dbread" for ::1 at 2022-07-27 15:08:33 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/dbread"):
+  
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 7.0. (called from block in <top (required)> at /var/www/examples/config/routes.rb:65)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from block in <top (required)> at /var/www/examples/config/routes.rb:65)
+Started GET "/appserver" for 192.168.1.101 at 2022-07-27 16:06:56 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/appserver"):
+  
+Started GET "/dbread" for 192.168.1.101 at 2022-07-27 16:07:06 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/dbread"):
+  
+Started GET "/appserver" for 192.168.1.101 at 2022-07-27 16:08:59 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/appserver"):
+  
+Started GET "/dbread" for 192.168.1.101 at 2022-07-27 16:11:00 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/dbread"):
+  
+Started GET "/dbread" for 192.168.1.101 at 2022-07-27 16:14:07 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/dbread"):
+  
+Started GET "/dbread" for 192.168.1.101 at 2022-07-27 16:16:24 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/dbread"):
+  
+Started GET "/appserver" for 192.168.1.101 at 2022-07-27 16:16:36 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/appserver"):
+  
+Started GET "/appserver" for 192.168.1.101 at 2022-07-27 16:24:14 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/appserver"):
+  
+Started GET "/dbread" for 192.168.1.101 at 2022-07-27 16:24:39 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/dbread"):
+  
+Started GET "/appserver" for 192.168.1.101 at 2022-07-27 16:24:47 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/appserver"):
+  
+Started GET "/dbread" for 192.168.1.101 at 2022-07-27 16:24:57 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/dbread"):
+  
+Started GET "/dbread" for 192.168.1.101 at 2022-07-27 17:56:49 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/dbread"):
+  
+Started GET "/dbread" for 192.168.1.101 at 2022-07-27 17:56:50 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/dbread"):
+  
+Started GET "/dbread" for 192.168.1.101 at 2022-07-27 18:16:23 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/dbread"):
+  
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 7.0. (called from block in <top (required)> at /var/www/examples/config/routes.rb:65)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from block in <top (required)> at /var/www/examples/config/routes.rb:65)
+Started GET "/dbread" for 192.168.1.101 at 2022-07-27 18:21:27 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/dbread"):
+  
+Started GET "/appserver" for 192.168.1.101 at 2022-07-27 18:21:41 +0300
+  
+ActionController::RoutingError (uninitialized constant ControllerController):
+  
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 7.0. (called from block in <top (required)> at /var/www/examples/config/routes.rb:65)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from block in <top (required)> at /var/www/examples/config/routes.rb:65)
